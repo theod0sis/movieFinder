@@ -1,0 +1,27 @@
+html, body {
+    font-family: Varela Round;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.main-bg-image {
+    background: url('./images/main-bg-image.png') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 1280px;
+    height: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    color: #b56375;
+    font-weight: bold;
+}
+
+@import 'styles/signup.scss';
+@import 'styles/header.scss';
+@import 'styles/signin.scss';
+@import 'styles/dashboard.scss';
+@import 'styles/notfound.scss';
+@import 'styles/account.scss';
+@import 'styles/movieDetails.scss';
